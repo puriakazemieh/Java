@@ -1,11 +1,11 @@
 package com.kazemieh.www.java;
 
+import android.os.Bundle;
+import android.widget.TextView;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
-import android.os.Bundle;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,6 +33,8 @@ public class JavaMoqadqmqti extends AppCompatActivity {
 
                 Adapter adapter = new Adapter(this, dataModels());
                 recyclerView.setAdapter(adapter);
+            } else if (temp.equals("منابع و درباره ما")) {
+                setContentView(R.layout.activity_info);
             }
         }
 

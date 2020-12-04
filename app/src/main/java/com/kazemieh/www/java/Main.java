@@ -50,6 +50,7 @@ public class Main extends AppCompatActivity {
     public List<DataModel> dataModelList(){
         List<DataModel> dataModels=new ArrayList<>();
         dataModels.add(new DataModel(R.drawable.ic_one,"جاوا مقدماتی"));
+        dataModels.add(new DataModel(R.drawable.ic_two,"منابع و درباره ما"));
   //      dataModels.add(new DataModel(R.drawable.ic_two,"جاوا پیشرفته"));
         return dataModels;
     }
